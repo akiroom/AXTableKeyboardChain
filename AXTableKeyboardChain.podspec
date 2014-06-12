@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                        Super easy UITextField / UITextView chain in UITableViewCell by C-functions.
                        It needs only one sentence.
                        DESC
-  s.homepage         = "http://EXAMPLE/NAME"
+  s.homepage         = "https://github.com/akiroom/AXTableKeyboardChain"
   s.screenshots      = "https://raw.githubusercontent.com/akiroom/AXTableKeyboardChain/master/screenshot.gif"
   s.license          = 'MIT'
   s.author           = { "Hiroki Akiyama" => "aki-hiroki@nifty.com" }
