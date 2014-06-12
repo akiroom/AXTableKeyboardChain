@@ -1,0 +1,14 @@
+PODS:
+  - AXTableKeyboardChain (0.1.0)
+
+DEPENDENCIES:
+  - AXTableKeyboardChain (from `../`)
+
+EXTERNAL SOURCES:
+  AXTableKeyboardChain:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AXTableKeyboardChain: 8086eac3b653615c0f6bce5ca0b3074474e25c49
+
+COCOAPODS: 0.33.1
