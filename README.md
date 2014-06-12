@@ -5,6 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/AXTableKeyboardChain.svg?style=flat)](http://cocoadocs.org/docsets/AXTableKeyboardChain)
 
 Super easy UITextField / UITextView chain in UITableViewCell by C-functions.
+You need to use only ```AXTableKeyboardChainGetNextField()``` and ```AXTableKeyboardChainGoToNext()```.
 
 ![Screenshot](https://raw.githubusercontent.com/akiroom/AXTableKeyboardChain/master/screenshot.gif)
 
@@ -12,7 +13,6 @@ Super easy UITextField / UITextView chain in UITableViewCell by C-functions.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-You need to use only AXTableKeyboardChainGetNextField and AXTableKeyboardChainGoToNext
 
 Example codes.
 
