@@ -8,7 +8,42 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+Example codes.
+
+```objc
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Acceptable any text field cell
+    AXTextFieldCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AXTextFieldCell" forIndexPath:indexPath];
+    [cell.textField setDelegate:self];
+    return cell;
+  }
+}
+
+#pragma mark - Text field delegate
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+  // will be called when Keyboard will be shown.
+  
+  // ***THIS IS THE POINT***
+  if (AXTableKeyboardChainGetNextField(self.tableView, textField)) {
+    [textField setReturnKeyType:UIReturnKeyNext];
+  } else {
+    [textField setReturnKeyType:UIReturnKeyDefault];
+  }
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+  // will be called when return key is pressed.
+  
+  // ***THIS IS THE POINT***
+  AXTableKeyboardChainGoToNext(self.tableView, textField);
+  return YES;
+}
+
+```
 
 ## Installation
 
