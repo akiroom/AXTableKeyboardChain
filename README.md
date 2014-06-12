@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/AXTableKeyboardChain.svg?style=flat)](http://cocoadocs.org/docsets/AXTableKeyboardChain)
 [![Platform](https://img.shields.io/cocoapods/p/AXTableKeyboardChain.svg?style=flat)](http://cocoadocs.org/docsets/AXTableKeyboardChain)
 
+![Screenshot](https://raw.githubusercontent.com/akiroom/AXTableKeyboardChain/master/screenshot.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

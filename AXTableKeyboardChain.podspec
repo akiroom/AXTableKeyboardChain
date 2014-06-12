@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                        It needs only one sentence.
                        DESC
   s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots      = "https://raw.githubusercontent.com/akiroom/AXTableKeyboardChain/master/screenshot.gif"
   s.license          = 'MIT'
   s.author           = { "Hiroki Akiyama" => "aki-hiroki@nifty.com" }
   s.source           = { :git => "https://github.com/akiroom/AXTableKeyboardChain.git", :tag => s.version.to_s }
