@@ -10,6 +10,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+You need to use only AXTableKeyboardChainGetNextField and AXTableKeyboardChainGoToNext
+
 Example codes.
 
 ```objc
