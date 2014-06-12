@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/AXTableKeyboardChain.svg?style=flat)](http://cocoadocs.org/docsets/AXTableKeyboardChain)
 [![Platform](https://img.shields.io/cocoapods/p/AXTableKeyboardChain.svg?style=flat)](http://cocoadocs.org/docsets/AXTableKeyboardChain)
 
+Super easy UITextField / UITextView chain in UITableViewCell by C-functions.
+
 ![Screenshot](https://raw.githubusercontent.com/akiroom/AXTableKeyboardChain/master/screenshot.gif)
 
 ## Usage
